@@ -310,7 +310,7 @@ class BAGobject:
         self.inOnderzoek                 = BAGattribuut( 1, "inOnderzoek", "bag_LVC:inOnderzoek")
         self.begindatumTijdvakGeldigheid = BAGattribuut(16, "begindatumTijdvakGeldigheid", "bag_LVC:tijdvakgeldigheid/bagtype:begindatumTijdvakGeldigheid")
         self.einddatumTijdvakGeldigheid  = BAGattribuut(16, "einddatumTijdvakGeldigheid", "bag_LVC:tijdvakgeldigheid/bagtype:einddatumTijdvakGeldigheid")
-        self.documentnummer              = BAGattribuut(20, "documentnummer", "bag_LVC:bron/bagtype:documentnummer")
+        self.documentnummer              = BAGattribuut(50, "documentnummer", "bag_LVC:bron/bagtype:documentnummer")
         self.documentdatum               = BAGattribuut( 8, "documentdatum", "bag_LVC:bron/bagtype:documentdatum")
 
         self.attributen = []
