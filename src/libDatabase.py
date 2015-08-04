@@ -59,6 +59,7 @@ class Database:
             self.cursor.execute(dropSQL)
             log("%s %s verwijderd" %(soort, naam))
         except:
+            self.connection.rollback()
             pass
 
         # Maak het object nieuw aan.
